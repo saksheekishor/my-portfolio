@@ -11,19 +11,19 @@ export default function Skills() {
             <input type="submit" className={styles.submit} value="Ping Me"/>
           </form>
           <div className={styles.row}>
-              <a href="https://github.com/kartikeyangupta/M-SKAM">
+              <a href="https://www.linkedin.com/in/kartikeyan-sachin-gupta-207273185/">
               <img
                 src="/images/contacts/linkedin.svg"
                 className={styles.logo}
               />
               </a>
-              <a href="https://github.com/kartikeyangupta/KBC-Hack">
+              <a href="mailto:kartikeyangupta123@gmail.com">
               <img
                 src="/images/contacts/gmail.svg"
                 className={styles.logo}
               />
               </a>
-              <a href="https://github.com/kartikeyangupta/KBC-Hack">
+              <a href="https://github.com/kartikeyangupta">
               <img
                 src="/images/contacts/github.svg"
                 className={styles.logo}
