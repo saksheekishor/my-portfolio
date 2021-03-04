@@ -1,0 +1,7 @@
+.nav {
+    display: wrap flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    text-decoration-color: aliceblue;
+}

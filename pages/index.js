@@ -5,8 +5,18 @@ import Link from 'next/link'
 import Skills from '../components/skills'
 import Projects from '../components/projects'
 import Contact from '../components/contact'
+import { getSkillsData } from '../lib/loadimages'
 
-export default function Home() {
+export async function getStaticProps() {
+  const allSkillImages = getSkillsData()
+  return {
+    props: {
+      allSkillImages
+    }
+  }
+}
+
+export default function Home({ allSkillImages }) {
   return (
     <Layout home>
       <Head>
@@ -22,7 +32,7 @@ export default function Home() {
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${utilStyles.newsection}`}>
         <h2 className={utilStyles.headingLg}>My Skills</h2>
-        <Skills />
+        <Skills allSkillImages={allSkillImages}/>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${utilStyles.newsection}`}>
         <h2 className={utilStyles.headingLg}>My Projects</h2>

@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
+// import Navbar from '../components/navbar'
 
 const name = 'Kartikeyan Gupta'
 const designation = 'Full Stack Developer | SCM Administator | MTS @ VMware'
@@ -10,6 +11,7 @@ export const siteTitle = 'Kartikeyan Gupta'
 export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
+      {/* <Navbar /> */}
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
