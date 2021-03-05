@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Skills from '../components/skills'
 import Projects from '../components/projects'
 import Contact from '../components/contact'
+import ExpAchievemt from '../components/expAcheivement'
 import { getSkillsData } from '../lib/loadimages'
 
 export async function getStaticProps() {
@@ -16,6 +17,19 @@ export async function getStaticProps() {
   }
 }
 
+function aboutMe(){
+    let component = []
+    let about = [
+                'I like building enterprise grade applications from scratch.',
+                'Full Stack Developer, Linux/System Administator, Site Reliability Engineer.',
+                'Works as Member of Technical Staff @ SCM-Team, VMware'
+                ]
+    for (let i=0; i < about.length; i++){
+      component.push(<p>{about[i]}</p>)
+    }
+    return component
+}
+
 export default function Home({ allSkillImages }) {
   return (
     <Layout home>
@@ -23,11 +37,9 @@ export default function Home({ allSkillImages }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${utilStyles.newsection}`}>
-        <h2 className={utilStyles.headingLg}>About Me</h2>
+        <h2 className={utilStyles.headingLg}>About</h2>
         <div className={utilStyles.about}>
-          <p>I like building enterprise grade applications from scratch</p>
-          <p>Full Stack Developer, Linux/System Administrator, Site Reliabilty Engineer.</p>
-          <p>Works as Member of Technical Staff @ SCM-Team, VMware</p>
+          {aboutMe()}
         </div>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${utilStyles.newsection}`}>
@@ -37,6 +49,10 @@ export default function Home({ allSkillImages }) {
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${utilStyles.newsection}`}>
         <h2 className={utilStyles.headingLg}>My Projects</h2>
         <Projects />
+      </section>
+      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${utilStyles.newsection}`}>
+        <h2 className={utilStyles.headingLg}>My Experiences and Achievements</h2>
+        <ExpAchievemt />
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${utilStyles.newsection}`}>
         <h2 className={utilStyles.headingLg}>Contact Me ?</h2>
