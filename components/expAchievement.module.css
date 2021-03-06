@@ -1,11 +1,18 @@
 .container {
-    max-width: 36 rem;
+    max-width: 30 rem;
     padding: 0 1rem;
     margin: 3rem auto 6rem;
-    /* align-items: center; */
+    align-items: center;
     margin-top: 2rem;
-    /* display: flex;
-    flex-direction: column; */
+    display: flex;
+    flex-direction: column;
+}
+
+.secondarycontainer {
+    max-width: 10 rem;
+    padding: 0 1rem;
+    margin: 1rem auto 2rem;
+    margin-top: 2rem;
 }
 
 .row {
@@ -20,8 +27,8 @@
 }
 
 .logo {
-    width: 20rem;
-    height: 20rem;
+    width: 10rem;
+    height: 10rem;
     /* //border-radius: 9999px; */
     margin-right: 3rem;
 }

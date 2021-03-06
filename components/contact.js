@@ -29,6 +29,12 @@ export default function Skills() {
                 className={styles.logo}
               />
               </a>
+              <a href="https://stackoverflow.com/users/12999982/kartikeyan-gupta">
+              <img
+                src="/images/contacts/stackoverflow.svg"
+                className={styles.logo}
+              />
+              </a>
             </div>
         </div>
     )
