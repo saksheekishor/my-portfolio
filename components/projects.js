@@ -17,6 +17,12 @@ export default function Skills() {
                 className={styles.logo}
               />
               </a>
+              <a href="https://agentchanda.gitlab.io">
+              <img
+                src="/images/projects/project3.png"
+                className={styles.logo}
+              />
+              </a>
             </div>
         </div>
     )

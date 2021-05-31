@@ -32,8 +32,7 @@ export default function ExpAchievemt({ allSkillImages }) {
             <div className={styles.secondarycontainer}>
                 <h3> March 2021 </h3>
                 <p> Winner of Global Open-Source Borathon 2021.</p>
-                <p> Contributed on zalando's kubernets postgres-operator. Fixed security issue increased unit test case coverage by 5%.</p>
-                <p> Fixed security issue increased unit test case coverage by 5%.</p>
+                <p> Contributed on zalando's kubernetes postgres-operator. Fixed security issues, increased unittest case coverage by 5%.</p>
             </div>
           </div>
           <div className={styles.row}>
