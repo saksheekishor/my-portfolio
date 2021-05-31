@@ -33,6 +33,14 @@
     margin-right: 3rem;
 }
 
+.certificate {
+    width: 15rem;
+    height: 10rem;
+    /* //border-radius: 9999px; */
+    margin-right: 3rem;
+    border: 1px solid black;
+}
+
 .headerHomeImage {
     width: 8rem;
     height: 8rem;

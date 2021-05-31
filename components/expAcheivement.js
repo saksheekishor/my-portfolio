@@ -1,4 +1,5 @@
 import styles from './expAchievement.module.css'
+import Link from 'next/link'
 
 function getExperience(joining,ending){
     if ( ending === null) 
@@ -27,7 +28,16 @@ export default function ExpAchievemt({ allSkillImages }) {
             </div>
           </div>
           <div className={styles.row}>
-            <img className={styles.logo} src='/images/experiences/sih.svg' alt='sih'/>
+            <img className={styles.certificate} src='/images/experiences/borathon-certificate.png' alt='borathon'/>
+            <div className={styles.secondarycontainer}>
+                <h3> March 2021 </h3>
+                <p> Winner of Global Open-Source Borathon 2021.</p>
+                <p> Contributed on zalando's kubernets postgres-operator. Fixed security issue increased unit test case coverage by 5%.</p>
+                <p> Fixed security issue increased unit test case coverage by 5%.</p>
+            </div>
+          </div>
+          <div className={styles.row}>
+            <img className={styles.certificate} src='/images/experiences/sih-certificate.png' alt='sih'/>
             <div className={styles.secondarycontainer}>
                 <h3> March 2019 </h3>
                 <p> Finalist of annually held SIH by Government of India.</p>

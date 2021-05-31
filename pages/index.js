@@ -22,7 +22,7 @@ function aboutMe(){
     let about = [
                 'I like building enterprise grade applications from scratch.',
                 'Full Stack Developer, Linux/System Administator, Site Reliability Engineer.',
-                'Works as Member of Technical Staff @ SCM-Team, VMware'
+                'Works as Member of Technical Staff 2 @ SCM-Team, VMware'
                 ]
     for (let i=0; i < about.length; i++){
       component.push(<p>{about[i]}</p>)

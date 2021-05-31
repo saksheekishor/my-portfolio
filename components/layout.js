@@ -5,7 +5,7 @@ import Link from 'next/link'
 // import Navbar from '../components/navbar'
 
 const name = 'Kartikeyan Gupta'
-const designation = 'Full Stack Developer | SCM Administator | MTS @ VMware'
+const designation = 'Full Stack Developer | SCM Administator | MTS-2 @ VMware'
 export const siteTitle = 'Kartikeyan Gupta'
 
 export default function Layout({ children, home }) {
