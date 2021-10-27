@@ -27,22 +27,42 @@ export default function ExpAchievemt({ allSkillImages }) {
           <h3> {getExperience(new Date("2021-03-01"), null)} </h3>
           <p>
             {" "}
-            Working as System Engineer, develops and maintain full working
-            application written on S4 HANA.
+            Working as System Engineer,I develop and maintain full working
+            applications written on S4 HANA.
           </p>
-          <p> Working as applications developer for ICICI Bank, Hyderabad . </p>
+          <p> Developing applications for ICICI Bank, Hyderabad. </p>
         </div>
       </div>
       <div className={styles.row}>
         <img
           className={styles.logo}
-          src="/images/experiences/IETE"
+          src="/images/experiences/IETE.png"
           alt="IETE"
         />
         <div className={styles.secondarycontainer}>
           <h3> September 2020 </h3>
-          <p> </p>
-          <p></p>
+          <p>
+            {" "}
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedlaboris
+            nisi ut aliquip ex ea commodo consequat
+          </p>
+          <p>do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        </div>
+      </div>
+      <div className={styles.row}>
+        <img
+          className={styles.logo}
+          src="/images/experiences/AICTE.jpeg"
+          alt="AICTE"
+        />
+        <div className={styles.secondarycontainer}>
+          <h3> March 2020 </h3>
+          <p>
+            {" "}
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedlaboris
+            nisi ut aliquip ex ea commodo consequa{" "}
+          </p>
+          <p>do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
         </div>
       </div>
       <div className={styles.row}>
@@ -53,20 +73,12 @@ export default function ExpAchievemt({ allSkillImages }) {
         />
         <div className={styles.secondarycontainer}>
           <h3> January 2019 </h3>
-          <p> </p>
-          <p> </p>
-        </div>
-      </div>
-      <div className={styles.row}>
-        <img
-          className={styles.logo}
-          src="/images/experiences/AICTE.jpeg"
-          alt="AICTE"
-        />
-        <div className={styles.secondarycontainer}>
-          <h3> January 2019 </h3>
-          <p> </p>
-          <p> </p>
+          <p>
+            {" "}
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedlaboris
+            nisi ut aliquip ex ea commodo consequat{" "}
+          </p>
+          <p>do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
         </div>
       </div>
     </div>
