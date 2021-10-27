@@ -1,12 +1,13 @@
-import Head from 'next/head'
-import styles from './layout.module.css'
-import utilStyles from '../styles/utils.module.css'
-import Link from 'next/link'
+import Head from "next/head";
+import styles from "./layout.module.css";
+import utilStyles from "../styles/utils.module.css";
+import Link from "next/link";
 // import Navbar from '../components/navbar'
 
-const name = 'Kartikeyan Gupta'
-const designation = 'Full Stack Developer | SCM Administator | MTS-2 @ VMware'
-export const siteTitle = 'Kartikeyan Gupta'
+const name = "Sakshee Pochampalliwar";
+const designation =
+  "Backend Developer | ABAP S4 HANA | Systems Engineer @ Infosys";
+export const siteTitle = "Sakshee Pochampalliwar";
 
 export default function Layout({ children, home }) {
   return (
@@ -14,10 +15,7 @@ export default function Layout({ children, home }) {
       {/* <Navbar /> */}
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="description"
-          content="portfolio website kartikeyan gupta"
-        />
+        <meta name="description" content="portfolio website sakshee kishor" />
         <meta
           property="og:image"
           content={`https://og-image.now.sh/${encodeURI(
@@ -66,5 +64,5 @@ export default function Layout({ children, home }) {
         </div>
       )}
     </div>
-  )
+  );
 }
