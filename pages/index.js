@@ -48,12 +48,12 @@ export default function Home({ allSkillImages }) {
         <h2 className={utilStyles.headingLg}>My Skills</h2>
         <Skills allSkillImages={allSkillImages} />
       </section>
-      {/* <section
+      <section
         className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${utilStyles.newsection}`}
       >
         <h2 className={utilStyles.headingLg}>My Projects</h2>
         <Projects />
-      </section> */}
+      </section>
       <section
         className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${utilStyles.newsection}`}
       >

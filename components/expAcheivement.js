@@ -21,7 +21,7 @@ export default function ExpAchievemt({ allSkillImages }) {
         <img
           className={styles.logo}
           src="/images/experiences/infosys.png"
-          alt="vmware"
+          alt="infosys"
         />
         <div className={styles.secondarycontainer}>
           <h3> {getExperience(new Date("2021-03-01"), null)} </h3>
@@ -31,6 +31,42 @@ export default function ExpAchievemt({ allSkillImages }) {
             application written on S4 HANA.
           </p>
           <p> Working as applications developer for ICICI Bank, Hyderabad . </p>
+        </div>
+      </div>
+      <div className={styles.row}>
+        <img
+          className={styles.logo}
+          src="/images/experiences/IETE"
+          alt="IETE"
+        />
+        <div className={styles.secondarycontainer}>
+          <h3> September 2020 </h3>
+          <p> </p>
+          <p></p>
+        </div>
+      </div>
+      <div className={styles.row}>
+        <img
+          className={styles.logo}
+          src="/images/experiences/BSNL.jpeg"
+          alt="BSNL"
+        />
+        <div className={styles.secondarycontainer}>
+          <h3> January 2019 </h3>
+          <p> </p>
+          <p> </p>
+        </div>
+      </div>
+      <div className={styles.row}>
+        <img
+          className={styles.logo}
+          src="/images/experiences/AICTE.jpeg"
+          alt="AICTE"
+        />
+        <div className={styles.secondarycontainer}>
+          <h3> January 2019 </h3>
+          <p> </p>
+          <p> </p>
         </div>
       </div>
     </div>
