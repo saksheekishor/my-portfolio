@@ -20,7 +20,7 @@ export default function ExpAchievemt({ allSkillImages }) {
       <div className={styles.row}>
         <img
           className={styles.logo}
-          src="/images/experiences/infosys.svg"
+          src="/images/experiences/infosys.png"
           alt="vmware"
         />
         <div className={styles.secondarycontainer}>
